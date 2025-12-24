@@ -27,10 +27,15 @@ public class OperatorUnary {
         System.out.println();
 
         System.out.println("Operator komplemen logika");
-        boolean sukses = false; //Nilai sukses adalah false
-        System.out.println("Hasil !false =" + !sukses);
+        boolean kece = true;
+        System.out.println("Nilai boolean = "+kece);
+        System.out.println("Nilai boolean = "+!kece);
         System.out.println();
+        boolean cupu = false;
+        System.out.println("Nilai boolean = "+cupu);
+        System.out.println("Nilai boolean = "+!cupu);
 
 
     }
 }
+
