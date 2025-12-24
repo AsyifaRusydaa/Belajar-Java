@@ -3,23 +3,24 @@ package com.aku.operator;
 public class OperatorConditional {
 
     public static void main(String[] args) {
-        int value = 4;
-        int anotherValue = 5;
+         int cupu = 4;
+        int kece = 5;
 
         System.out.println("Conditional AND");
-        boolean result = value == 3 && anotherValue == 5;
-        boolean anotherResult = value != 3 && anotherValue == 5;
+        boolean hasil1 = cupu == 3 && kece == 5;
+        boolean hasil2 = cupu != 3 && kece == 5;
 
-        System.out.println("Hasil Operator AND pada syarat value == 3 dan anotherValue == 5 adalah " + result);
-        System.out.println("Hasil Operator AND pada syarat value != 3 dan anotherValue == 5 adalah " + anotherResult);
+        System.out.println("Hasil Operator AND pada syarat value == 3 dan anotherValue == 5 adalah " + hasil1);
+        System.out.println("Hasil Operator AND pada syarat value != 3 dan anotherValue == 5 adalah " + hasil2);
         System.out.println();
         System.out.println("Conditional OR");
 
-        result = value == 3 || anotherValue == 5;
-        anotherResult = value != 3 || anotherValue == 5;
+        hasil1 = cupu == 3 || kece == 5;
+        hasil2 = cupu != 3 || kece == 5;
 
-        System.out.println("Hasil Operator OR pada syarat value == 3 dan anotherValue == 5 adalah " + result);
-        System.out.println("Hasil Operator OR pada syarat value != 3 dan anotherValue == 5 adalah " + anotherResult);
+        System.out.println("Hasil Operator OR pada syarat value == 3 dan anotherValue == 5 adalah " + hasil1);
+        System.out.println("Hasil Operator OR pada syarat value != 3 dan anotherValue == 5 adalah " + hasil2);
         System.out.println();
     }
 }
+
